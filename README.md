@@ -8,7 +8,7 @@ Happy keyboard smashing!
 ### Axios
 Axios is provided app wide as `$api` and can be injected in any component that needs it. See `main.js` and `/src/views/Home.vue` for example usage.
 
-Basically, you need to include `import { inject } from 'vue'` in your component, and define `const $api = inject('$api')`
+Basically, you need to `import { inject } from 'vue'` in your component, and define `const $api = inject('$api')`. Then you can use it as `$api.post(...)` etc in your project.
 
 
 ## Recommended IDE Setup
